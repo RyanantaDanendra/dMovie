@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color:darkslategray;
+  padding: 30px 30px;
+}
+
+.movies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5rem;
+}
+
+.movie-wrapper {
+  width: 20rem;
+  height: 36rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  overflow :hidden;
+  font-size: .9em;
+}
+
+.movie-image {
+  width: 20rem;
+  height: 30rem;
+}
+
+.title-search {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.movie-search {
+  background-color: white;
+  width: 20rem;
+  border: 2px black;
+  padding-left: 1rem;
+  color: black;
+  font-size: 1rem;
+}
